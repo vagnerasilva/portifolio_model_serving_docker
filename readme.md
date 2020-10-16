@@ -15,5 +15,5 @@ docker run -p 8501:8501 --name tfserving_classifier --mount type=bind, source=./
 
 
  docker run -p 8501:8501 --name tfserving_classifier \
- --mount type=bind,source=/img_classifier/,target=/models/img_classifier \
+ --mount type=bind,source=/Users/nameuser/Desktop/deepIA/dockerML/img_classifier/,target=/models/img_classifier \
  -e MODEL_NAME=img_classifier -t tensorflow/serving
