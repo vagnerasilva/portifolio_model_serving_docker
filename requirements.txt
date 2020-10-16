@@ -1,0 +1,2 @@
+requests==2.24.0
+tensorboard==2.3.0
